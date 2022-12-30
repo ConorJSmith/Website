@@ -1,0 +1,142 @@
+/* Add a style for the header logo */
+.header .logo {
+    /* Flexbox alignment */
+    align-self: center;
+    /* Flexbox grow */
+    flex-grow: 1;
+    /* Flexbox shrink */
+    flex-shrink: 1;
+  }
+  
+  /* Add a style for the header right section */
+  .header-right {
+    /* Flexbox alignment */
+    align-self: center;
+    /* Flexbox shrink */
+    flex-shrink: 0;
+    /* Flexbox grow */
+    flex-grow: 0;
+    /* Set the display property to flex */
+    display: flex;
+    /* Set the font size to 18px */
+    font-size: 20px;
+    /* Align the items along the main axis of the flex container to the end */
+    justify-content: flex-end;
+    font: 1.6rem/1.5 Helvetica, Arial, sans-serif;
+    color: #000000; 
+    font-size: 19px;
+      /* Increase the padding between the links */
+  }
+
+
+  /* Add a style for the header right links */
+  .header-right a {
+    /* Set the color of the text to white */
+    color: black;
+    /* Remove the underline from the link */
+    text-decoration: none;
+    /* Add some margin between the links */
+    margin: 0 20px;
+  }
+
+
+
+
+  
+
+
+/* Add a style for the header */
+.header {
+    /* Set the display property to flex */
+    display: flex;
+    /* Set the font size to 18px */
+    font-size: 22px;
+    /* Set the font weight to bold */
+    font-weight: bold;
+    /* Align the items along the cross axis of the flex container */
+    align-items: center;
+    /* Add a background gradient */
+    background: linear-gradient(45deg, #000000, #000000);
+    /* Set the background size to 100% */
+    background-size: 100%;
+    /* Set the background repeat to repeat */
+    background-repeat: repeat;
+    /* Add a style for webkit-based browsers */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    /* Add a style for Mozilla-based browsers */
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    /* Set the width of the main element to 55% of the screen width */
+    width: 55%;
+    /* Add some padding to the main section */
+    margin: auto;
+    padding-top: 10px;
+    font: 1.6rem/1.5 Helvetica, Arial, sans-serif;
+    color: #000000; 
+    font-size: 28px; }
+  
+  
+
+
+   /* Global styles */
+   html {
+    font-size: 62.5%; }
+  
+  body {
+    font: 1.6rem/1.5 Helvetica, Arial, sans-serif;
+    color: #000000; }
+
+
+
+
+
+  /* Add a style for the main section */
+  main {
+    /* Set the width of the main element to 55% of the screen width */
+    width: 55%;
+    /* Add some padding to the main section */
+    padding: 20px;
+    /* Center the main element horizontally */
+    margin: auto;
+  }
+
+
+
+ /* Add a style for the footer */
+footer {
+    /* Set the background color to black */
+    background-color: white;
+    /* Add some padding to the footer */
+    padding: 10px;
+    /* Add some color to the text */
+    color: black;
+    /* Set the font size to 16px */
+    font-size: 16px;
+    /* Set the display property to flex */
+    display: flex;
+    /* Set the width of the main element to 80% of the screen width */
+    width: 55%;
+    /* Center the items along the main axis of the flex container */
+    justify-content: center;
+    /* Center the footer element horizontally */
+    margin: auto;
+  }
+  
+  /* Add a style for the footer links */
+  footer a {
+    /* Remove the underline from the link */
+    text-decoration: none;
+    /* Add some color to the text */
+    color: black;
+    /* Add some margin between the links */
+    margin: 0 10px;
+  }
+  
+  /* Add a style for the footer list items */
+  footer li {
+    /* Remove the bullet points */
+    list-style: none;
+  }
+  
